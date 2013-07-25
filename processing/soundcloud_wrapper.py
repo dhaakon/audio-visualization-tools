@@ -57,7 +57,7 @@ class FileRetriever:
         song_analyzer.SongAnalyzer( self.fileName )
 
 s = soundcloudWrapper()
-s.getTrackById( '/tracks/93281354' )
+s.getTrackById( 'tracks/8771103' )
 
 f = FileRetriever( s.track_url.location, 
                    s.user, 

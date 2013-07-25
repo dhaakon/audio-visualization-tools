@@ -9,4 +9,5 @@ class SongAnalyzer:
         self.beats.reverse()
 
         #print self.audio_file.analysis.id
+        print audio
         audio.getpieces( self.audio_file, self.beats ).encode("remix.mp3")
