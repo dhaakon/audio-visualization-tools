@@ -1,8 +1,6 @@
 import soundcloud
 import song_analyzer
 
-SOUNDCLOUD_CLIENT_ID = 'cd05d9cb01048aa598f818dc24360414'
-
 class soundcloudWrapper:
 
     def __init__ ( self ):
